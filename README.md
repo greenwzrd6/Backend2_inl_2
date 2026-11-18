@@ -7,6 +7,7 @@ För att köra projektet på windows system kör `run.bat` och stäng ej termina
 För att ta bort den sparade fildatabasen kör `chmod +x remove_database.sh` och `remove_database.sh` eller `remove_database.bat`
 
 Testexempel:
+
 Function ------------------------ HTTP ------------------------ URL
 
 Skapa kund.-----------------------POST------------/customers?name=Anna&phone=123456789
