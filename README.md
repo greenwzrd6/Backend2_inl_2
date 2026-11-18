@@ -2,6 +2,7 @@ För att köra projektet på unix system kör `chmod +x run.sh` och sedan `run.s
 
 För att köra projektet på windows system kör `run.bat` och stäng ej terminalen
 
+För att ta bort den sparade fildatabasen kör `chmod +x remove_database.sh` och `remove_database.sh` eller `remove_database.bat`
 
 Testexempel:
 Function ------------------------ HTTP ------------------------ URL
