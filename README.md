@@ -9,21 +9,21 @@ För att ta bort den sparade fildatabasen kör `chmod +x remove_database.sh` och
 Testexempel:
 Function ------------------------ HTTP ------------------------ URL
 
-Skapa kund.                       POST            /customers?name=Anna&phone=123456789
+Skapa kund.-----------------------POST------------/customers?name=Anna&phone=123456789
 
-Hämta kund-ID via namn            GET             /customer-id?name=Anna
+Hämta kund-ID via namn------------GET-------------/customer-id?name=Anna
 
-Lista alla kunder + fordon        GET             /customers
+Lista alla kunder + fordon--------GET-------------/customers
 
-Skapa fordon                      POST            /vehicles?registrationNumber=ABC123&brand=Volvo&model=V60&productionYear=2022
+Skapa fordon----------------------POST------------/vehicles?registrationNumber=ABC123&brand=Volvo&model=V60&productionYear=2022
 
-Lista alla fordon                 GET             /vehicles
+Lista alla fordon-----------------GET-------------/vehicles
 
-Lista fordon med visst bilmärke   GET             /vehicles-by-brand?brand=Volvo
+Lista fordon med visst bilmärke---GET-------------/vehicles-by-brand?brand=Volvo
 
-Koppla fordon till customer   	  POST  	        /addvehicletocustomer?customerId=1&vehicleId=1
+Koppla fordon till customer-------POST------------/addvehicletocustomer?customerId=1&vehicleId=1
 
-Uppdatera bilmärke			          PUT	            /vehicles/1/brand?brand=Saab
+Uppdatera bilmärke----------------PUT-------------/vehicles/1/brand?brand=Saab
 
-Lista registreringsnummer		      GET	            /vehicle-brand-info
+Lista registreringsnummer---------GET-------------/vehicle-brand-info
 och bilmärke
