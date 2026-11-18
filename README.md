@@ -1,3 +1,5 @@
+Stå alltid i projektroten när du kör skript
+
 För att köra projektet på unix system kör `chmod +x run.sh` och sedan `run.sh` och stäng ej terminalen
 
 För att köra projektet på windows system kör `run.bat` och stäng ej terminalen
