@@ -37,4 +37,11 @@ remove_database.bat
 | Funktion | HTTP | URL |
 |---|---|---|
 | Skapa kund | `POST` | `http://localhost:8080/customers?name=Anna&phone=123456789` |
-| Hämta kund-ID via namn | `GET` | `http://localhost:8080/customer-id
+| Hämta kund-ID via namn | `GET` | `http://localhost:8080/customer-id?name=Anna` |
+| Lista alla kunder + fordon | `GET` | `http://localhost:8080/customers` |
+| Skapa fordon | `POST` | `http://localhost:8080/vehicles?registrationNumber=ABC123&brand=Volvo&model=V60&productionYear=2022` |
+| Lista alla fordon | `GET` | `http://localhost:8080/vehicles` |
+| Lista fordon med visst bilmärke | `GET` | `http://localhost:8080/vehicles-by-brand?brand=Volvo` |
+| Koppla fordon till kund | `POST` | `http://localhost:8080/addvehicletocustomer?customerId=1&vehicleId=1` |
+| Uppdatera bilmärke | `PUT` | `http://localhost:8080/vehicles/1/brand?brand=Saab` |
+| Lista registreringsnummer och bilmärke | `GET` | `http://localhost:8080/vehicle-brand-info` |
